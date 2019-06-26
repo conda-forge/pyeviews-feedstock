@@ -25,6 +25,7 @@ requirements:
     - numpy
     - pandas
     - comtypes
+    - setuptools
 
 test:
   imports:
