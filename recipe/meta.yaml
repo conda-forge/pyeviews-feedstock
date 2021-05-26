@@ -1,5 +1,5 @@
 {% set name = "pyeviews" %}
-{% set version = "1.0.2" %}
+{% set version = "1.0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b663db776cf3a0f9b775423a19832ea1b9011b39a226f719f7fbd8249f20ade3
+  sha256: 8a1ee00c1ba7da7b267b5a0607d877d7ba3ecf02a4616059ac0b836e301c750a
 
 build:
   number: 0
