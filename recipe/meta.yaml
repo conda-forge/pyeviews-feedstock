@@ -19,12 +19,12 @@ requirements:
     - pandas
     - pip
     - python
-    - pywin32
+    - pywin32-ctypes
   run:
     - numpy
     - pandas
     - python
-    - pywin32
+    - pywin32-ctypes
 
 test:
   imports:
