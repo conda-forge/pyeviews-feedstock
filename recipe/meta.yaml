@@ -10,7 +10,7 @@ source:
   sha256: 8a1ee00c1ba7da7b267b5a0607d877d7ba3ecf02a4616059ac0b836e301c750a
 
 build:
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
@@ -39,7 +39,7 @@ about:
   license: GPL-3.0-only
   license_family: GPL
   license_file: LICENSE.txt
-  summary: Data import/export and EViews function calls from Python
+  summary: "Data import/export and EViews function calls from Python"
   doc_url: 
   dev_url: 
   description: |
