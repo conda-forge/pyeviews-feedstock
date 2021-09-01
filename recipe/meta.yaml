@@ -35,11 +35,11 @@ app:
   summary: "Data import/export and EViews function calls from Python"
   
 about:
-  home: "https://github.com/bexer/pyeviews"
-  license: GNU General Public License v3.0 only
-  license_family: GPL-3.0-only
+  home: https://github.com/bexer/pyeviews
+  license: GPL-3.0-only
+  license_family: GPL
   license_file: LICENSE.txt
-  summary: "Data import/export and EViews function calls from Python"
+  summary: Data import/export and EViews function calls from Python
   doc_url: 
   dev_url: 
   description: |
