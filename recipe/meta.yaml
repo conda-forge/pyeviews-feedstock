@@ -1,5 +1,5 @@
 {% set name = "pyeviews" %}
-{% set version = "1.0.3" %}
+{% set version = "1.0.4" %}
 
 package:
   name: "{{ name|lower }}"
@@ -19,29 +19,35 @@ requirements:
     - pandas
     - pip
     - python
-    - pywin32-ctypes
+    - setuptools
   run:
     - numpy
     - pandas
     - python
-    - pywin32-ctypes
+    - comtypes
+    - setuptools
 
 test:
   imports:
     - pyeviews
 
+app:
+  summary: "Data import/export and EViews function calls from Python"
+  
 about:
   home: "https://github.com/bexer/pyeviews"
-  license: "GNU General Public v3 (GPLv3)"
-  license_family: GPL3
+  license: GNU General Public License v3.0 only
+  license_family: GPL-3.0-only
   license_file: LICENSE.txt
   summary: "Data import/export and EViews function calls from Python"
   doc_url: 
   dev_url: 
-
-app:
-  summary: "Data import/export and EViews function calls from Python"
-  
+  description: |
+    The purpose of the pyeviews package is to make it easier for EViews and Python 
+    to talk to each other, so Python programmers can use the econometric engine of 
+    EViews directly from Python.
+  dev_url: https://github.com/bexer/pyeviews
+ 
 extra:
   recipe-maintainers:
     - bexer
